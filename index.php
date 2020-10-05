@@ -10,5 +10,6 @@ $portatile->setProcessore("i9");
 
 $portatile->setGpu("GTX 2080");
 
+$portatile->prezzo = "1000";
 var_dump($portatile);
 ?>

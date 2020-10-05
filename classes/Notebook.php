@@ -29,5 +29,12 @@ class Notebook {
     public function getGpu($_schedaGrafica) {
         return $this->schedaGrafica;
     }
+
+    public function CalcoloPrezzo() {
+        if (epmty($this->prezzo)) {
+            die("Non hai inserito il prezzo");
+        }
+        return $this->prezzo;
+    }
 }
 ?>
